@@ -6,12 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Cours_WS" />
         <module name="Serveur" />
+        <module name="tamer" />
+        <module name="UploadDownload_WS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Cours_WS" target="1.6" />
       <module name="ISWA" target="1.5" />
+      <module name="jtest" target="1.5" />
       <module name="Serveur" target="1.5" />
+      <module name="tamer" target="1.5" />
+      <module name="tesetset" target="1.5" />
+      <module name="untitled" target="1.5" />
+      <module name="UploadDownload_WS" target="1.6" />
+      <module name="WS_Cours" target="1.6" />
+      <module name="WStest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
