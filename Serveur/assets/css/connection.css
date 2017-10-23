@@ -1,18 +1,11 @@
+  /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
-  background: url("https://i.imgur.com/HgflTDf.jpg") 50% fixed;
+  background-color: #2E3842;
   background-size: cover;
 }
 
-@keyframes spinner {
-  0% {
-    transform: rotateZ(0deg);
-  }
-  100% {
-    transform: rotateZ(359deg);
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -25,7 +18,7 @@ body {
   width: 100%;
   min-height: 100%;
   padding: 20px;
-  background: rgba(4, 40, 68, 0.85);
+  background-color: #2e3842;
 }
 
 .login {
@@ -42,21 +35,11 @@ body {
   max-height: 100%;
   padding-top: 50px;
 }
-.login.loading button .spinner {
-  opacity: 1;
-  top: 40%;
-}
+
 .login.ok button {
   background-color: #8bc34a;
 }
-.login.ok button .spinner {
-  border-radius: 0;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  height: 20px;
-  animation: none;
-  transform: rotateZ(-45deg);
-}
+
 .login input {
   display: block;
   padding: 15px 10px;
@@ -67,6 +50,7 @@ body {
   border-radius: 2px;
   color: #ccc;
 }
+
 .login input + i.fa {
   color: #fff;
   font-size: 1em;
@@ -79,7 +63,7 @@ body {
 .login input:focus {
   outline: none;
   color: #444;
-  border-color: #2196F3;
+  border-color: #d1cee2;
   border-left-width: 35px;
 }
 .login input:focus + i.fa {
@@ -89,7 +73,7 @@ body {
 }
 .login a {
   font-size: 0.8em;
-  color: #2196F3;
+  color: #494d53;
   text-decoration: none;
 }
 .login .title {
@@ -104,7 +88,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 10px 10px;
-  background: #2196F3;
+  background: #494d53;
   color: #fff;
   display: block;
   border: none;
@@ -119,29 +103,14 @@ body {
   transition: all 0.1s ease-out;
   border-bottom-width: 7px;
 }
-.login button .spinner {
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  border: 4px solid #ffffff;
-  border-top-color: rgba(255, 255, 255, 0.3);
-  border-radius: 100%;
-  left: 50%;
-  top: 0;
-  opacity: 0;
-  margin-left: -20px;
-  margin-top: -20px;
-  animation: spinner 0.6s infinite linear;
-  transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius 0.3s ease;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-}
+
 .login:not(.loading) button:hover {
-  box-shadow: 0px 1px 3px #2196F3;
+  box-shadow: 0px 1px 3px #d1cee2;
 }
+/*
 .login:not(.loading) button:focus {
   border-bottom-width: 4px;
-}
+}*/
 
 footer {
   display: block;
@@ -156,3 +125,4 @@ footer a, footer a:link {
   color: #fff;
   text-decoration: none;
 }
+

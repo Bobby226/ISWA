@@ -67,6 +67,7 @@ public class UploadDownloadFileServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.write("<html><head></head><body>");
+        System.out.println("req " + request.getAuthType());
         try {
             List<FileItem> fileItemsList = uploader.parseRequest(request);
             Iterator<FileItem> fileItemsIterator = fileItemsList.iterator();
