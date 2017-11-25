@@ -1,0 +1,9 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TestPhP</title>
+    <link rel="stylesheet" href="../../../assets/css/survey.css" />
+</head>
+    <body id="main">
+        <form method="post" action="phptest.php">

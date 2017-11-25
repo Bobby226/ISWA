@@ -7,20 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Cours_WS" />
+        <module name="DBCommand" />
         <module name="Serveur" />
         <module name="tamer" />
+        <module name="Test_WS" />
         <module name="UploadDownload_WS" />
+        <module name="UserInf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cours_WS" target="1.6" />
+      <module name="DBCommand" target="1.5" />
       <module name="ISWA" target="1.5" />
       <module name="jtest" target="1.5" />
       <module name="Serveur" target="1.5" />
       <module name="tamer" target="1.5" />
       <module name="tesetset" target="1.5" />
+      <module name="Test_WS" target="1.6" />
       <module name="untitled" target="1.5" />
       <module name="UploadDownload_WS" target="1.6" />
+      <module name="UserInf" target="1.5" />
       <module name="WS_Cours" target="1.6" />
       <module name="WStest" target="1.5" />
     </bytecodeTargetLevel>

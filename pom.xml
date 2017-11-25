@@ -12,6 +12,9 @@
         <module>Serveur</module>
         <module>Cours_WS</module>
         <module>UploadDownload_WS</module>
+        <module>Test_WS</module>
+        <module>DBCommand</module>
+        <module>UserInf</module>
     </modules>
 
 

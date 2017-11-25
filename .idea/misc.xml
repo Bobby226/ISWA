@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Cours_WS" />
     <file type="web" url="file://$PROJECT_DIR$/tesetset" />
+    <file type="web" url="file://$PROJECT_DIR$/Test_WS" />
     <file type="web" url="file://$PROJECT_DIR$/UploadDownload_WS" />
   </component>
   <component name="MavenProjectsManager">
