@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  
+  <link rel="stylesheet" href="../chat/css/app.css">
+</head>
+<body>
+  <header>
+    <h1>Chat</h1>
+  </header>
+  
+  <section class="chat">
+    <div class="messages">
+     
+    </div>
+    <div class="user-inputs">
+      <form action="handler.php?task=write" method="POST">
+        <input type="text" name="author" id="author" placeholder="Nom">
+        <input type="text" id="content" name="content" placeholder="Message">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  <script src="../chat/js/app.js"></script>
+</body>
+</html>
