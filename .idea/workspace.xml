@@ -97,14 +97,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_cours_ws.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_cours_ws.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+            <state relative-caret-position="353">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/word">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -211,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Serveur/src/main/php/end_data" />
         <option value="$PROJECT_DIR$/Serveur/assets/css/survey.css" />
         <option value="$PROJECT_DIR$/UserInf/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.1" />
@@ -262,6 +271,7 @@
         <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.2.json" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.3.json" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java" />
+        <option value="$PROJECT_DIR$/word" />
       </list>
     </option>
   </component>
@@ -443,72 +453,6 @@
             <path>
               <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="ConnectionAndProfil_WS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="ConnectionAndProfil_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="ConnectionAndProfil_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="ConnectionAndProfil_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="ConnectionAndProfil_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -984,7 +928,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172129000" />
+    <option name="totallyTimeSpent" value="172329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1110,7 +1054,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.2" />
     <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.5.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1519,11 +1462,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        <state relative-caret-position="353">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
