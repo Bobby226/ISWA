@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tesetset:war">
+    <output-path>$PROJECT_DIR$/tesetset/target</output-path>
+    <root id="archive" name="tesetset.war">
+      <element id="artifact" artifact-name="tesetset:war exploded" />
+    </root>
+  </artifact>
+</component>

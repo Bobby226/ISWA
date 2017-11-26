@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ISWA (1):war exploded">
+    <output-path>$PROJECT_DIR$/ConnectionProfil_WS/target/ConnectionProfil_WS</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ISWA (1)" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.8" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: com.owlike:genson:0.99" />
+          <element id="library" level="project" name="Maven: org.apache.derby:derbyclient:10.13.1.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
+          <element id="archive" name="UserInf-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="UserInf" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ConnectionProfil_WS/target/ConnectionProfil_WS/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ISWA (1)/web/Web" />
+    </root>
+  </artifact>
+</component>
