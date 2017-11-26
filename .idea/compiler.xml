@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ConnectionAndProfil_WS" />
         <module name="Cours_WS" />
         <module name="DBCommand" />
         <module name="Serveur" />
@@ -16,9 +17,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ConnectionAndProfil_WS" target="1.6" />
+      <module name="ConnectionProfil_WS" target="1.6" />
       <module name="Cours_WS" target="1.6" />
       <module name="DBCommand" target="1.5" />
       <module name="ISWA" target="1.5" />
+      <module name="ISWA (1)" target="1.6" />
       <module name="jtest" target="1.5" />
       <module name="Serveur" target="1.5" />
       <module name="tamer" target="1.5" />

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ISWA:war">
+    <output-path>$PROJECT_DIR$/ConnectionProfil_WS/target</output-path>
+    <root id="archive" name="Profil_WS.war">
+      <element id="artifact" artifact-name="ISWA:war exploded" />
+    </root>
+  </artifact>
+</component>

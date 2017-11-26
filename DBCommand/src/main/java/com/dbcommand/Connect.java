@@ -1,33 +1,82 @@
 package com.dbcommand;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import com.usr.info.User;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Connect
 {
     private static String err_msg;
 
-    public static String Connect_to_Database(String mat, String cla, String sub)
+    static private Connection Connexion()
     {
+        Connection con = null;
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            String host = "jdbc:mysql://127.0.0.1:3306";
-            String uName = "root";
-            String uPass = "";
+        }
+        catch (ClassNotFoundException e)
+        {
+            System.out.println("JDBC driver est introuvable");
+        }
+        try
+        {
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbiswa" ,"root", "root");
+        }
+        catch (SQLException e)
+        {
+            throw new RuntimeException(e);
+        }
+        return (con);
+    }
+
+    public static List<String[]> getCours_to_Database(String id)
+    {
+        List<String[]> mat_pls = new ArrayList<String[]>();
+        try
+        {
+            Connection con = Connexion();
+            User as = new User();
+
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery("SELECT * FROM users WHERE UserID=" + id);
+            System.out.println("tet " + rs.getString("UserID"));
+            as.ID = Integer.parseInt(rs.getString("UserID"));
+            as.Classe = rs.getString("Classe");
+            rs = statement.executeQuery("SELECT * FROM user_level_per_subject WHERE UserID=" + id);
+            while (rs.next())
+            {
+                if (Integer.parseInt(rs.getString("UserLevel")) < 65)
+                {
+                    ArrayList<String> mylist = new ArrayList<String>();
+                    mylist.add(rs.getString("topicID"));
+                    mylist.add(rs.getString("subjectID"));
+                    String[] l = (String[]) mylist.toArray();
+                    mat_pls.add(l);
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            System.out.println("Err in getCours -> Connect.java. @" + e.toString());
+        }
+        return mat_pls;
+    }
+
+    public static String Connect_to_Database(String mat, String cla, String sub)
+    {
+     /*   try
+        {
+            Class.forName("com.mysql.jdbc.Driver");
+
 
 
             Connection con = DriverManager.getConnection(host, uName, uPass);
 
             Statement statement = con.createStatement();
-            /* Exécution d'une requête de lecture */
             statement.execute("USE cours");
             ResultSet resultat = statement.executeQuery("SELECT n FROM cours WHERE Matiere=" + mat + " AND Sujet=" + cla + ";");
-            /*while ( resultat.next() )
-            {
-            }*/
             resultat.next();
             int index = resultat.getInt("n");
 
@@ -38,6 +87,9 @@ public class Connect
             err_msg = "Error while connecting to DB : " + e.getMessage(); // + " Param was : " + mat + " && " + cla;
             System.out.println(err_msg);
             return (err_msg);
-        }
+        }*/
+     return "";
     }
+
+
 }
