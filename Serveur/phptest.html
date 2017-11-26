@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestPhP</title>
+</head>
+<body>
+    <p>Je Fé D Test lel</p>
+    <form name="premier test" method="post" action="phptest2.php">
+        <p>Gimme your name : </p>
+        <input type="text" name="nom"/>
+        <p>Gimme your taille : </p>
+        <input type="text" name="taille"/>
+        <p>Gimme your poids : </p>
+        <input type="text" name="poids"/>
+        <input type="submit" name="OK" value="OK"/>
+    </form>
+    <?php
+    if (isset($_POST['OK']))
+    {
+        $name = $_POST['nom'];
+        $taille = $_POST['taille'];
+        $poids = $_POST['poids'];
+        $imc = ($poids/($taille * $taille));
+
+        echo 'Hellow '  //. $name . '/nLe gros tas de merde que tu es pèses ' . $poids . ' ton imc : ' . $imc;
+    }
+    ?>
+</body>
+</html>

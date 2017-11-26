@@ -1,0 +1,35 @@
+/* animate bg*/
+	      body { margin: 0; background: #000;}
+	      video
+	      { 
+		  position: fixed;
+		  top: 50%;
+		  left: 50%;
+		  min-width: 100%;
+		  min-height: 100%;
+		  width: auto;
+		  height: auto;
+		  z-index: -100;
+		  -moz-transform: translateX(-50%) translateY(-50%);
+		  -ms-transform: translateX(-50%) translateY(-50%);
+		  -webkit-transform: translateX(-50%) translateY(-50%);
+		  transform: translateX(-50%) translateY(-50%);
+		  /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat; fix background*/
+		  background-size: cover;
+		  -webkit-transition: 1s opacity;
+		  transition: 1s opacity;
+	      }
+
+	      .stopfade
+	      {
+		  opacity: .5;
+	      }
+
+	      body.is-article-visible video
+	      {
+		  -moz-filter: blur(0.3rem);
+		  -webkit-filter: blur(0.3rem);
+		  -ms-filter: blur(0.3rem);
+		  filter: blur(0.3rem);
+	      }
+	      

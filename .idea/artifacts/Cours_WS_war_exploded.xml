@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Cours_WS:war exploded">
+    <output-path>$PROJECT_DIR$/Cours_WS/target/CoursWS</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Cours_WS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.8" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+          <element id="library" level="project" name="Maven: org.apache.derby:derbyclient:10.13.1.1" />
+          <element id="archive" name="DBCommand-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="DBCommand" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Cours_WS/target/CoursWS/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Cours_WS/web/Web" />
+    </root>
+  </artifact>
+</component>
