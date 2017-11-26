@@ -14,14 +14,13 @@
 
 <body>
   <div class="wrapper">
-  <form class="login">
-    <p class="title">Connexion</p>
-    <input type="text" placeholder="Nom d'utilisateur" autofocus/>
-    <i class="fa fa-user"></i>
-    <input type="password" placeholder="Mot de passe" />
-    <i class="fa fa-key"></i>
-    <!--<a href="#">Forgot your password?</a> -->
-    <input type="button" name="LogIn" value="Se connecter" onclick="self.location.href='redirect.php'"/>
+  <form class="login" action="/Connexion.php" method="post">
+		<p class="title">Connexion</p>
+		<input type="text" placeholder="Nom d'utilisateur" name="Email" autofocus/>
+		<i class="fa fa-user"></i>
+		<input type="password" placeholder="Mot de passe" name="Mdp" />
+		<i class="fa fa-key"></i>
+		<input type="submit" value="Se connecter">
   </form>
   </p>
 </div>
