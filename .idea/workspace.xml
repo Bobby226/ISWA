@@ -68,52 +68,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create_survey.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/create_survey.php">
+      <file leaf-file-name="accountSetting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serveur/accountSetting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_test_ws.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java">
+      <file leaf-file-name="classRoom.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serveur/classRoom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="341" column="161" lean-forward="false" selection-start-line="341" selection-start-column="161" selection-end-line="341" selection-end-column="161" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#736#744#0" expanded="true" />
-                <element signature="e#4581#4589#0" expanded="true" />
-                <element signature="e#5346#5355#0" expanded="true" />
-                <element signature="e#5416#5425#0" expanded="true" />
-                <element signature="e#6241#6249#0" expanded="true" />
-                <marker date="1511702817342" expanded="true" signature="1575:1608" ph="SELECT * FRO... users" />
-                <marker date="1511702817342" expanded="true" signature="2488:2501" ph="SELECT * FRO... " />
-                <marker date="1511702817342" expanded="true" signature="2488:2502" ph="SELECT * FRO... " />
-                <marker date="1511702817342" expanded="true" signature="2488:2538" ph="SELECT * FRO... user" />
-                <marker date="1511702817342" expanded="true" signature="12724:12769" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12795" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12822" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12847" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12868" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12877" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12908" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12939" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="12724:12948" ph="UPDATE `user... " />
-                <marker date="1511702817342" expanded="true" signature="15475:15525" ph="SELECT * FRO... user_level_per_subject" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBDoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoc">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serveur/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="60" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="139" />
+            <state relative-caret-position="153">
+              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercices.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serveur/exercices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lecon.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Serveur/lecon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,18 +131,28 @@
       <file leaf-file-name="redirect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Serveur/redirect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+            <state relative-caret-position="444">
+              <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="last_data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/last_data">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serveur/studentSpace/studentSpace/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+            <state relative-caret-position="289">
+              <caret line="23" column="102" lean-forward="true" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercices.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serveur/studentSpace/studentSpace/exercices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="30" column="104" lean-forward="true" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -153,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/Serveur/Connection.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="102" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="102" />
+              <caret line="23" column="96" lean-forward="false" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -196,14 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Serveur/pom.xml" />
-        <option value="$PROJECT_DIR$/Serveur/assets/css/profil.css" />
-        <option value="$PROJECT_DIR$/Serveur/assets/css/connection.css" />
-        <option value="$PROJECT_DIR$/Serveur/index.html" />
-        <option value="$PROJECT_DIR$/Serveur/up.html" />
-        <option value="$PROJECT_DIR$/UploadDownload_WS/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/Serveur/imatest.html" />
-        <option value="$PROJECT_DIR$/UploadDownload_WS/src/main/java/UploadDownloadFileServlet.java" />
         <option value="$PROJECT_DIR$/UploadDownload_WS/src/main/java/net/codejava/servlet/UploadServlet.java" />
         <option value="$PROJECT_DIR$/UploadDownload_WS/src/main/webapp/upload.jsp" />
         <option value="$PROJECT_DIR$/Serveur/Profil.html" />
@@ -243,10 +244,18 @@
         <option value="$PROJECT_DIR$/Serveur/src/main/php/last_data" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/generate_exam_enter.html" />
         <option value="$PROJECT_DIR$/Serveur/Connection.html" />
-        <option value="$PROJECT_DIR$/Serveur/redirect.php" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/ret_post.php" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/phptest.php" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java" />
+        <option value="$PROJECT_DIR$/ISWA Website/index.html" />
+        <option value="$PROJECT_DIR$/Serveur/studentSpace/studentSpace/accountSetting.html" />
+        <option value="$PROJECT_DIR$/Serveur/redirect.php" />
+        <option value="$PROJECT_DIR$/Serveur/studentSpace/studentSpace/exercices.html" />
+        <option value="$PROJECT_DIR$/Serveur/lecon.html" />
+        <option value="$PROJECT_DIR$/Serveur/exercices.html" />
+        <option value="$PROJECT_DIR$/Serveur/dashboard.html" />
+        <option value="$PROJECT_DIR$/Serveur/classRoom.html" />
+        <option value="$PROJECT_DIR$/Serveur/accountSetting.html" />
       </list>
     </option>
   </component>
@@ -405,63 +414,25 @@
             <path>
               <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Serveur" type="462c0819:PsiDirectoryNode" />
+              <item name="ISWA Website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISWA" type="462c0819:PsiDirectoryNode" />
               <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISWA" type="462c0819:PsiDirectoryNode" />
               <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="studentSpace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISWA" type="462c0819:PsiDirectoryNode" />
               <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="studentSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="studentSpace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -485,13 +456,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur" />
       <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur\src\main\php" />
       <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Cours_WS\src\main\java\com\cours\ws" />
       <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\UploadDownload_WS\src\main\webapp" />
-      <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur" />
       <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur" />
+      <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur\studentSpace" />
       <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\Serveur\src\main\php" />
       <recent name="C:\Users\Arthur\Documents\ISWA\ISWA\UploadDownload_WS" />
     </key>
@@ -928,12 +901,12 @@
       <workItem from="1510861008056" duration="599000" />
       <workItem from="1511354089722" duration="7624000" />
       <workItem from="1511435556631" duration="15420000" />
-      <workItem from="1511621972270" duration="57035000" />
+      <workItem from="1511621972270" duration="59538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153516000" />
+    <option name="totallyTimeSpent" value="156019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,73 +1006,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DBCommand/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBCommand/src/main/java/com/dbcommand/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/995028f7/5d5767d5-78a3-4080-9285-9126b309a269/cours.cours">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/995028f7/5d5767d5-78a3-4080-9285-9126b309a269/cours.cours">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Serveur/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1306,7 +1212,7 @@
         <state relative-caret-position="1172">
           <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1362,7 +1268,7 @@
     <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/create_survey.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1383,34 +1289,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/last_data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/Connection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="102" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/phptest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1418,15 +1300,15 @@
     <entry file="file://$PROJECT_DIR$/DBDoc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="60" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="139" />
+          <caret line="3" column="60" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="139" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="341" column="161" lean-forward="false" selection-start-line="341" selection-start-column="161" selection-end-line="341" selection-end-column="161" />
+        <state relative-caret-position="526">
+          <caret line="280" column="21" lean-forward="false" selection-start-line="280" selection-start-column="21" selection-end-line="280" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#736#744#0" expanded="true" />
@@ -1449,6 +1331,102 @@
             <marker date="1511702817342" expanded="true" signature="12724:12948" ph="UPDATE `user... " />
             <marker date="1511702817342" expanded="true" signature="15475:15525" ph="SELECT * FRO... user_level_per_subject" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISWA Website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/studentSpace/studentSpace/accountSetting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/Connection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="96" lean-forward="false" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/phptest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/studentSpace/studentSpace/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="102" lean-forward="true" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/studentSpace/studentSpace/exercices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="30" column="104" lean-forward="true" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/exercices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/classRoom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/accountSetting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/lecon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

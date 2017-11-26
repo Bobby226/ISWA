@@ -39,6 +39,6 @@ if ($result === FALSE)
 if ($result == "f")
     Redirect('http://tamer:4242/src/main/php/phptest.php', false);
 else
-    Redirect('http://tamer:4242/Profil.html', false);
+    Redirect('http://tamer:4242/dashboard.html', false);
 
 echo $result;
