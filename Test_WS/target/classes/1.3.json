@@ -1,0 +1,14 @@
+{
+  "enonce": "Trouver les resultats.\nExample : 1 + 1 = 2",
+  "sample": [
+    "a + b",
+    "a + b + c",
+    "a + b + c + d",
+    "a + b + c + d + e",
+    "a + b + c + d + e + f",
+    "a + b + c + d + e + f + g"
+  ],
+  "min" : "2",
+  "max" : "50",
+  "operation" : "2"
+}

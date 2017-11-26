@@ -1,7 +1,9 @@
 <?php
 require 'create_survey.php';
+require 'correct_survey.php';
 
 file_put_contents("generate_exam_enter.html", "");
+
 /*echo $_SESSION["ID"];
 $url="http://localhost:8080/TestWS/test/test/post/";
 
@@ -37,18 +39,32 @@ $letsgen->gen_meta_and_body();
 $letsgen->gen_end();
 readfile(dirname(__FILE__) . "\generate_exam_enter.html");
 
-?>
+$_SESSION['letsgen'] = $letsgen;
 
-
-<?php
-
-if(isset($_POST['OK'])){ // button name
-    a();
+if(isset($_POST['OK'])){// button name
+    a($letsgen->getop());
 }
 
-function a() {
+function a($op) {
     //$xml = file_get_contents("http://localhost:8080/CoursWS/rest/cours/Mathematiques-Multiplication");
-    echo 'Imatest';
+    file_put_contents("generate_exam_enter.html", "");
+    readfile(dirname(__FILE__) . "\generate_exam_enter.html");
+    $arr = array("operation" => $op);
+    $arr1 = array();
+
+    foreach ($_POST as $key => $value)
+    {
+        if ($key != 'OK')
+                $arr1[$key] = $value;
+        echo($key . " was " . $value);
+    }
+    array_push($arr, $arr1);
+
+        // print_r($arr);
+    $post_data = json_encode($arr, JSON_FORCE_OBJECT);
+    $cor = new correct_survey();
+    $cor->correction($post_data);
+    echo 'Result : ' . $_POST['q1'];
 
 }
 

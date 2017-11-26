@@ -1,0 +1,15 @@
+{
+  "enonce": "Comparer les series de nombres suivant.\nExample : 25 < 27",
+  "sample": [
+    "a b",
+    "a b c",
+    "a b c d",
+    "a b c d e",
+    "a b c d e f",
+    "a b c d e f g"
+    ],
+  "min" : "0",
+  "max" : "500000",
+  "operation" : "0"
+}
+

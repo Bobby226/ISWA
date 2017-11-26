@@ -6,4 +6,4 @@
     <link rel="stylesheet" href="../../../assets/css/survey.css" />
 </head>
     <body id="main">
-        <form method="post" action="phptest.php">
+        <form method="post" action="ret_post.php">

@@ -1,0 +1,18 @@
+{
+  "guest1": {
+    "enonce":"Trouver les resultats.\nExample : 1\/10  0.1",
+    "operation":"\/",
+    "quest":[
+      "<p>Q1 : 21 32 10 89<input type=\"text\" name=\"q1\"><\/p>\\r\\n",
+      "<p>Q2 : 85 74 46 47 79 44 28<input type=\"text\" name=\"q2\"><\/p>\\r\\n",
+      "<p>Q3 : 35 57 14<input type=\"text\" name=\"q3\"><\/p>\\r\\n"]
+  },
+  "guest0":{
+    "enonce":"Comparer les series de nombres suivant.\nExample : 25 < 27",
+    "operation":"<",
+    "quest":[
+      "<p>Q1 : 473867 386256 205325 114735 315720 459616<input type=\"text\" name=\"q1\"><\/p>\\r\\n",
+      "<p>Q2 : 152217 181730 71824 98979<input type=\"text\" name=\"q2\"><\/p>\\r\\n",
+      "<p>Q3 : 393134 356869 380716 438173 117239 470357 83348<input type=\"text\" name=\"q3\"><\/p>\\r\\n"]
+  }
+}
