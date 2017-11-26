@@ -2,6 +2,16 @@
 require 'create_survey.php';
 require 'correct_survey.php';
 
+function Redirect($url, $permanent = false)
+{
+    if (headers_sent() === false)
+    {
+        header('Location: ' . $url, true, ($permanent === true) ? 301 : 302);
+    }
+
+    exit();
+}
+
 file_put_contents("generate_exam_enter.html", "");
 
 /*echo $_SESSION["ID"];
@@ -47,8 +57,6 @@ if(isset($_POST['OK'])){// button name
 
 function a($op) {
     //$xml = file_get_contents("http://localhost:8080/CoursWS/rest/cours/Mathematiques-Multiplication");
-    file_put_contents("generate_exam_enter.html", "");
-    readfile(dirname(__FILE__) . "\generate_exam_enter.html");
     $arr = array("operation" => $op);
     $arr1 = array();
 
@@ -65,7 +73,7 @@ function a($op) {
     $cor = new correct_survey();
     $cor->correction($post_data);
     echo 'Result : ' . $_POST['q1'];
-
+    Redirect('http://tamer:4242/Profil.html', false);
 }
 
 ?>

@@ -33,7 +33,7 @@ public class main_test_ws
     static List<String> g_rep = new ArrayList<String>();
     Connection con = Connexion();
 
-    JSONObject obj2;
+    static JSONObject obj2;
 
     private Connection Connexion()
     {
@@ -307,13 +307,17 @@ public class main_test_ws
         System.out.println("Je suis passé par là : " + rep.size());
 
         int i = 0;
+        int obj_curs = 0;
         int result = 0;
         int count = 0;
         String req = "";
+        String req1 = "";
         while (i != rep.size())
         {
             req = "q" + (i + 1);
+            req1 = "guest" + obj_curs;
             String tmp = rep.get(req).toString();
+            tmp = tmp.replace(" ", "");
             if (tmp.equals(g_rep.get(i)))
             {
                 result++;
@@ -328,27 +332,20 @@ public class main_test_ws
                 try
                 {
                     Statement statement = con.createStatement();
+                    Object gen = obj2.get(req1);
+                    JSONObject allg = (JSONObject) gen;
+                    String tpic = allg.get("topicID").toString();
+                    String sbjectid = allg.get("subjectID").toString();
                     result = result * 33;
                     if (result == 99)
                         result = 100;
-                    int rs = statement.executeUpdate("UPDATE `user_level_per_subject` SET `UserID`=" + as.ID + ",`SubjectID`=" + 1 + ",`TopicID`=" + 1 + ",`UserLevel`=" + result + " WHERE `UserID`=" + as.ID +  " AND `SubjectID`=" + 1 + " AND `TopicID`=" + 1);
-                    System.out.println("chalut");
+                    int rs = statement.executeUpdate("UPDATE `user_level_per_subject` SET `UserID`=" + as.ID + ",`SubjectID`=" + sbjectid + ",`TopicID`=" + tpic + ",`UserLevel`=" + result + " WHERE `UserID`=" + as.ID +  " AND `SubjectID`=" + sbjectid + " AND `TopicID`=" + tpic);
+                    System.out.println("tpid " + tpic + " || sbjecitd " + sbjectid);
+                    System.out.println("fck " + obj2.get("guest1"));
                     result = 0;
-                }
-                catch (Exception e)
-                {
-                    System.out.println("Err : " + e.toString());
-                }
-            }
-            if (count == 5)
-            {
-                try
-                {
-                    Statement statement = con.createStatement();
-                    result = result * 33;
-                    if (result == 99)
-                        result = 100;
-                    int rs = statement.executeUpdate("UPDATE `user_level_per_subject` SET `UserID`=" + as.ID + ",`SubjectID`=" + 1 + ",`TopicID`=" + 2 + ",`UserLevel`=" + result + " WHERE `UserID`=" + as.ID +  " AND `SubjectID`=" + 1 + " AND `TopicID`=" + 2);
+                    obj_curs++;
+                    count = -1;
+
                 }
                 catch (Exception e)
                 {
@@ -397,7 +394,8 @@ public class main_test_ws
 
     @POST
     @Path("/cr")
-    public Response correctExam(String obj) {
+    public Response correctExam(String obj)
+    {
         String output = "ok";
 
         try
@@ -413,12 +411,46 @@ public class main_test_ws
             JSONObject jsonObject = (JSONObject) ob;
 
             get_calc(jsonObject);
-        }
-        catch (Exception e)
+        } catch (Exception e)
         {
             System.out.println("err : " + e.toString());
         }
 
         return Response.status(200).entity(output).build();
+    }
+
+        @POST
+        @Path("/rd")
+        public Response checkforfirstco(String id)
+        {
+            String output = "ok";
+
+            try
+            {
+                if (con == null)
+                    con = Connexion();
+                id = id.replace("id=", "");
+                getUsr(con, id);
+                Statement statement = con.createStatement();
+                obj2 = new JSONObject();
+                ResultSet rs = statement.executeQuery("SELECT * FROM user_level_per_subject WHERE UserID=" + as.ID);
+                while (rs.next())
+                {
+                    as.lvl[Integer.parseInt(rs.getString("SubjectID"))][Integer.parseInt(rs.getString("TopicID"))] = Integer.parseInt(rs.getString("UserLevel"));
+                    if (Integer.parseInt(rs.getString("UserLevel")) == -1)
+                    {
+                        output = "f";
+                        return Response.status(200).entity(output).build();
+                    }
+                }
+                output = "n";
+                return Response.status(200).entity(output).build();
+            }
+            catch (Exception e)
+            {
+                System.out.println("err : " + e.toString());
+            }
+
+            return Response.status(200).entity(output).build();
     }
 }
