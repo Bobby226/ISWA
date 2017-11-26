@@ -113,7 +113,7 @@ public class main_test_ws
                         //String tmp = this.getClass().getResource(linkSample[0][0]).toString();
                         ClassLoader classLoader = getClass().getClassLoader();
                         System.out.println("echo : " + tamer);
-                        File file = new File(classLoader.getResource(linkSample[0][tamer]).getFile());
+                        File file = new File(classLoader.getResource(linkSample[Integer.parseInt(rs.getString("SubjectID")) - 1][Integer.parseInt(rs.getString("TopicID")) - 1]).getFile());
                         tamer++;
                         JSONParser parser = new JSONParser();
 

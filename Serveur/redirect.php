@@ -17,8 +17,10 @@ function Redirect($url, $permanent = false)
 }
 
 $url="http://localhost:8080/TestWS/test/test/rd/";
+session_start();
 
-$data = array('id' => '1');
+$id = $_SESSION['IdUser'];
+$data = array('id' => $id);
 //$data = array('id' => $_SESSION["ID"]);
 
 // use key 'http' even if you send the request to https://...

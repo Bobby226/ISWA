@@ -38,22 +38,25 @@ public class Connect
         {
             Connection con = Connexion();
             User as = new User();
+            id = id.replace("id=", "");
 
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery("SELECT * FROM users WHERE UserID=" + id);
-            System.out.println("tet " + rs.getString("UserID"));
-            as.ID = Integer.parseInt(rs.getString("UserID"));
-            as.Classe = rs.getString("Classe");
+            if(rs.next())
+            {
+                as.ID = Integer.parseInt(rs.getString("UserID"));
+                as.Classe = rs.getString("Classe");
+            }
             rs = statement.executeQuery("SELECT * FROM user_level_per_subject WHERE UserID=" + id);
             while (rs.next())
             {
                 if (Integer.parseInt(rs.getString("UserLevel")) < 65)
                 {
-                    ArrayList<String> mylist = new ArrayList<String>();
-                    mylist.add(rs.getString("topicID"));
-                    mylist.add(rs.getString("subjectID"));
-                    String[] l = (String[]) mylist.toArray();
-                    mat_pls.add(l);
+                    String[] mylist = new String[2];
+                    mylist[1] = rs.getString("topicID");
+                    mylist[0] = rs.getString("subjectID");
+                    mat_pls.add(mylist);
+                    System.out.println("tet " + mat_pls.get(0)[0]);
                 }
             }
         }

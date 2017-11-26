@@ -16,7 +16,7 @@ function connexion($UserMail, $UserMdp)
 	);
 							
 	$context  = stream_context_create($opts);
-	$url = 'http://localhost:8080/Profil_WS/rest/post/connexion';
+	$url = 'http://localhost:8080/ProfilWS/rest/post/connexion';
 	$result = file_get_contents($url, false, $context);
 	if ($result == false)
 	{
@@ -24,7 +24,8 @@ function connexion($UserMail, $UserMdp)
 	}
 	else
 	{
-		return($result);
+
+        return($result);
 	}
 }
 
@@ -32,14 +33,20 @@ $value = connexion($Email, $Mdp);
 
 if ($value == "KO")
 {
-	header('Location: http://iswa.dev/Connection.html');
-	exit();
+	//header('Location: http://tamer:4242/Connection.html');
+    echo "
+            <script type=\"text/javascript\">
+            alert('Mauvais Nom d\'utilisateur / mot de passe');
+            window.location.href = \"Connection.html\";
+            </script>
+        ";
+    exit();
 }
 else
 {
-	session_start();
+    session_start();
 	$_SESSION["IdUser"]=$value;
-	header('Location: http://iswa.dev/redirect.php');
+	header('Location: http://tamer:4242/redirect.php');
 	exit();
 }
 ?>

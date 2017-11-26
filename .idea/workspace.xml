@@ -71,51 +71,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main_cours_ws.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redirect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serveur/redirect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lecon.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serveur/lecon.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connect.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Connect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DBCommand/src/main/java/com/dbcommand/Connect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#840#850#0" expanded="true" />
-                <element signature="e#1570#1578#0" expanded="true" />
-                <marker date="1511714346110" expanded="true" signature="1061:1094" ph="SELECT * FRO... users" />
-                <marker date="1511714346110" expanded="true" signature="1319:1369" ph="SELECT * FRO... user_level_per_subject" />
-                <marker date="1511714346110" expanded="true" signature="2405:2461" ph="SELECT n FRO... cours" />
+                <marker date="1511723557144" expanded="true" signature="1101:1134" ph="SELECT * FRO... users" />
+                <marker date="1511723557144" expanded="true" signature="1356:1406" ph="SELECT * FRO... user_level_per_subject" />
+                <marker date="1511723557144" expanded="true" signature="2434:2490" ph="SELECT n FRO... cours" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cours_WS/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_cours_ws.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.3.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.3.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_test_ws.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="115" column="174" lean-forward="false" selection-start-line="115" selection-start-column="174" selection-end-line="115" selection-end-column="174" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#736#744#0" expanded="true" />
+                <element signature="e#4667#4675#0" expanded="true" />
+                <element signature="e#5432#5441#0" expanded="true" />
+                <element signature="e#5502#5511#0" expanded="true" />
+                <element signature="e#6327#6335#0" expanded="true" />
+                <marker date="1511724858712" expanded="true" signature="1575:1608" ph="SELECT * FRO... users" />
+                <marker date="1511724858712" expanded="true" signature="2488:2501" ph="SELECT * FRO... " />
+                <marker date="1511724858712" expanded="true" signature="2488:2502" ph="SELECT * FRO... " />
+                <marker date="1511724858712" expanded="true" signature="2488:2538" ph="SELECT * FRO... user" />
+                <marker date="1511724858712" expanded="true" signature="12810:12855" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:12881" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:12908" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:12933" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:12954" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:12963" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:12994" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:13025" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="12810:13034" ph="UPDATE `user... " />
+                <marker date="1511724858712" expanded="true" signature="15561:15611" ph="SELECT * FRO... user_level_per_subject" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBDoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBDoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="88" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="139" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,24 +211,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Serveur/phptest.php" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/end_data" />
         <option value="$PROJECT_DIR$/Serveur/assets/css/survey.css" />
         <option value="$PROJECT_DIR$/UserInf/src/main/java/User.java" />
-        <option value="$PROJECT_DIR$/UserInf/src/main/java/com/usr/info/User.java" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.1" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/test.php" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/d.php" />
         <option value="$PROJECT_DIR$/Test_WS/pom.xml" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/resources/test.json" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/correct_survey.php" />
-        <option value="$PROJECT_DIR$/Serveur/src/main/php/create_survey.php" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.1.json" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/I_Calculate.java" />
-        <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.2.json" />
-        <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.3.json" />
         <option value="$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/Calculate.java" />
-        <option value="$PROJECT_DIR$/DBDoc" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/test.html" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/bla.html" />
         <option value="$PROJECT_DIR$/Serveur/quest.html" />
@@ -186,11 +230,8 @@
         <option value="$PROJECT_DIR$/Serveur/src/main/php/last_data" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/generate_exam_enter.html" />
         <option value="$PROJECT_DIR$/Serveur/src/main/php/ret_post.php" />
-        <option value="$PROJECT_DIR$/Serveur/src/main/php/phptest.php" />
-        <option value="$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java" />
         <option value="$PROJECT_DIR$/ISWA Website/index.html" />
         <option value="$PROJECT_DIR$/Serveur/studentSpace/studentSpace/accountSetting.html" />
-        <option value="$PROJECT_DIR$/Serveur/redirect.php" />
         <option value="$PROJECT_DIR$/Serveur/studentSpace/studentSpace/exercices.html" />
         <option value="$PROJECT_DIR$/Serveur/exercices.html" />
         <option value="$PROJECT_DIR$/Serveur/dashboard.html" />
@@ -201,17 +242,26 @@
         <option value="$PROJECT_DIR$/ConnectionProfil_WS/src/main/java/com/iswa/rest/Post.java" />
         <option value="$PROJECT_DIR$/ConnectionProfil_WS/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ConnectionProfil_WS/pom.xml" />
-        <option value="$PROJECT_DIR$/ConnectionAndProfil_WS/pom.xml" />
         <option value="$PROJECT_DIR$/Serveur/lecon.html" />
-        <option value="$PROJECT_DIR$/Cours_WS/pom.xml" />
         <option value="$PROJECT_DIR$/DBCommand/pom.xml" />
         <option value="$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/java/com/iswa/rest/Get.java" />
-        <option value="$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/java/com/iswa/rest/Post.java" />
         <option value="$PROJECT_DIR$/Serveur/Connection.php" />
         <option value="$PROJECT_DIR$/Serveur/Connection.html" />
+        <option value="$PROJECT_DIR$/ConnectionAndProfil_WS/pom.xml" />
+        <option value="$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/java/com/iswa/rest/Post.java" />
+        <option value="$PROJECT_DIR$/Serveur/src/main/php/phptest.php" />
+        <option value="$PROJECT_DIR$/Serveur/src/main/php/create_survey.php" />
+        <option value="$PROJECT_DIR$/Serveur/Connexion.php" />
+        <option value="$PROJECT_DIR$/Serveur/redirect.php" />
+        <option value="$PROJECT_DIR$/Serveur/lecon.php" />
+        <option value="$PROJECT_DIR$/UserInf/src/main/java/com/usr/info/User.java" />
+        <option value="$PROJECT_DIR$/Cours_WS/pom.xml" />
         <option value="$PROJECT_DIR$/DBCommand/src/main/java/com/dbcommand/Connect.java" />
         <option value="$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java" />
-        <option value="$PROJECT_DIR$/Serveur/lecon.php" />
+        <option value="$PROJECT_DIR$/DBDoc" />
+        <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.2.json" />
+        <option value="$PROJECT_DIR$/Test_WS/src/main/resources/1.3.json" />
+        <option value="$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java" />
       </list>
     </option>
   </component>
@@ -243,6 +293,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Cours_WS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Cours_WS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -432,114 +487,6 @@
             <path>
               <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Cours_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="DBCommand" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="DBCommand" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="DBCommand" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="DBCommand" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="DBCommand" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbcommand" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Serveur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
               <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -561,21 +508,7 @@
               <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_WS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ISWA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISWA" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInf" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1051,7 +984,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163562000" />
+    <option name="totallyTimeSpent" value="172129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1067,9 +1000,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32552955" sideWeight="0.5127932" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23773988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23773988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20095949" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1078,13 +1011,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4936034" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32552955" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32552955" sideWeight="0.48720682" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1115,7 +1049,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32552955" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1168,7 +1101,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1177,7 +1110,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/d.php" />
     <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.2" />
     <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.5.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1197,13 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/I_Calculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1230,42 +1155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserInf/src/main/java/com/usr/info/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/Calculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1172">
-          <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1283,14 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/create_survey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/bla.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1298,19 +1183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ISWA Website/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1020">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1355,7 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,22 +1240,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConnectionProfil_WS/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ConnectionProfil_WS/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Test_WS/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1395,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,44 +1264,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="76" column="41" lean-forward="false" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/java/com/iswa/rest/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="51" column="68" lean-forward="true" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
-          <folding>
-            <marker date="1511710884067" expanded="true" signature="1305:1323" ph="SELECT * FRO... User" />
-            <marker date="1511710884067" expanded="true" signature="1305:1324" ph="SELECT * FRO... users" />
-            <marker date="1511710884067" expanded="true" signature="2607:2625" ph="SELECT * FRO... User" />
-            <marker date="1511710884067" expanded="true" signature="2607:2626" ph="SELECT * FRO... users" />
-            <marker date="1511710884067" expanded="true" signature="2928:3002" ph="INSERT INTO `user`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/java/com/iswa/rest/Get.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="82" column="51" lean-forward="false" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
-          <folding>
-            <marker date="1511710884020" expanded="true" signature="1162:1196" ph="SELECT * FRO... users" />
-            <marker date="1511710884020" expanded="true" signature="2379:2430" ph="SELECT * FRO... user_lvl_per_subject" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,14 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/correct_survey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1472,55 +1288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/Connection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UserInf/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1291">
-          <caret line="227" column="73" lean-forward="false" selection-start-line="227" selection-start-column="73" selection-end-line="227" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#736#744#0" expanded="true" />
-            <element signature="e#4581#4589#0" expanded="true" />
-            <element signature="e#5346#5355#0" expanded="true" />
-            <element signature="e#5416#5425#0" expanded="true" />
-            <element signature="e#6241#6249#0" expanded="true" />
-            <marker date="1511702817342" expanded="true" signature="1575:1608" ph="SELECT * FRO... users" />
-            <marker date="1511702817342" expanded="true" signature="2488:2501" ph="SELECT * FRO... " />
-            <marker date="1511702817342" expanded="true" signature="2488:2502" ph="SELECT * FRO... " />
-            <marker date="1511702817342" expanded="true" signature="2488:2538" ph="SELECT * FRO... user" />
-            <marker date="1511702817342" expanded="true" signature="12724:12769" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12795" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12822" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12847" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12868" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12877" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12908" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12939" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="12724:12948" ph="UPDATE `user... " />
-            <marker date="1511702817342" expanded="true" signature="15475:15525" ph="SELECT * FRO... user_level_per_subject" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/phptest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1537,15 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cours_WS/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,43 +1319,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Serveur/redirect.php">
+    <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
+    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/Calculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/I_Calculate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/phptest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/Connection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/create_survey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/src/main/php/correct_survey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serveur/Connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1511721765254" expanded="true" signature="751:770" ph="..." />
+            <marker date="1511721765254" expanded="true" signature="751:772" ph="..." />
+            <marker date="1511721765254" expanded="true" signature="751:851" ph="..." />
+            <marker date="1511721765254" expanded="true" signature="751:868" ph="..." />
+            <marker date="1511721765254" expanded="true" signature="751:873" ph="..." />
+            <marker date="1511721765254" expanded="true" signature="751:893" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserInf/src/main/java/com/usr/info/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Serveur/lecon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        <state relative-caret-position="149">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_WS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cours_WS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConnectionAndProfil_WS/src/main/java/com/iswa/rest/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1511716723900" expanded="true" signature="1351:1370" ph="SELECT * FRO... users" />
+            <marker date="1511716723900" expanded="true" signature="2848:2867" ph="SELECT * FRO... users" />
+            <marker date="1511716723900" expanded="true" signature="3169:3243" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/resources/1.3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_WS/src/main/java/com/test/ws/main_test_ws.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="115" column="174" lean-forward="false" selection-start-line="115" selection-start-column="174" selection-end-line="115" selection-end-column="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#736#744#0" expanded="true" />
+            <element signature="e#4667#4675#0" expanded="true" />
+            <element signature="e#5432#5441#0" expanded="true" />
+            <element signature="e#5502#5511#0" expanded="true" />
+            <element signature="e#6327#6335#0" expanded="true" />
+            <marker date="1511724858712" expanded="true" signature="1575:1608" ph="SELECT * FRO... users" />
+            <marker date="1511724858712" expanded="true" signature="2488:2501" ph="SELECT * FRO... " />
+            <marker date="1511724858712" expanded="true" signature="2488:2502" ph="SELECT * FRO... " />
+            <marker date="1511724858712" expanded="true" signature="2488:2538" ph="SELECT * FRO... user" />
+            <marker date="1511724858712" expanded="true" signature="12810:12855" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:12881" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:12908" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:12933" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:12954" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:12963" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:12994" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:13025" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="12810:13034" ph="UPDATE `user... " />
+            <marker date="1511724858712" expanded="true" signature="15561:15611" ph="SELECT * FRO... user_level_per_subject" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="88" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="139" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DBCommand/src/main/java/com/dbcommand/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#840#850#0" expanded="true" />
-            <element signature="e#1570#1578#0" expanded="true" />
-            <marker date="1511714346110" expanded="true" signature="1061:1094" ph="SELECT * FRO... users" />
-            <marker date="1511714346110" expanded="true" signature="1319:1369" ph="SELECT * FRO... user_level_per_subject" />
-            <marker date="1511714346110" expanded="true" signature="2405:2461" ph="SELECT n FRO... cours" />
+            <marker date="1511723557144" expanded="true" signature="1101:1134" ph="SELECT * FRO... users" />
+            <marker date="1511723557144" expanded="true" signature="1356:1406" ph="SELECT * FRO... user_level_per_subject" />
+            <marker date="1511723557144" expanded="true" signature="2434:2490" ph="SELECT n FRO... cours" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cours_WS/src/main/java/com/cours/ws/main_cours_ws.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -37,6 +37,7 @@ public class Post
     public Response connexion(String Valus)
     {
         Connection con = Connexion();
+        System.out.println("Val : " + Valus);
         try
         {
             try
@@ -51,17 +52,24 @@ public class Post
                 {
                     if (Email.equals(rs.getString("email_adresse")) == true && Mdp.equals(rs.getString("password")) == true)
                     {
-                        con.close();
-                        return Response.status(200).entity(rs.getString("Id")).build();
+                        //con.close();
+                        return Response.status(200).entity(rs.getString("UserID")).build();
                     }
                 }
                 rs.close();
                 statement.close();
                 con.close();
             }
-            catch(org.json.simple.parser.ParseException t){}
+            catch(org.json.simple.parser.ParseException t)
+            {
+                System.out.println("Err in parserExc : + " + t.toString());
+            }
         }
-        catch (SQLException e) {}
+        catch (SQLException e)
+        {
+            System.out.println("Err in SQLExc : + " + e.toString());
+
+        }
         return Response.status(401).entity("Bad users infos").build();
     }
 

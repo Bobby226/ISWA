@@ -73,7 +73,7 @@ function a($op) {
     $cor = new correct_survey();
     $cor->correction($post_data);
     echo 'Result : ' . $_POST['q1'];
-    Redirect('http://tamer:4242/Profil.html', false);
+    Redirect('http://tamer:4242/dashboard.html', false);
 }
 
 ?>

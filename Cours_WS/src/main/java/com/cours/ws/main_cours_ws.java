@@ -17,20 +17,25 @@ import java.util.List;
 public class main_cours_ws
 {
     private String err_msg = "";
-   // static String[][][] linkSample ={ "6" { }, "5", "4", "3", "2", "1"};
+   static String[][] linkSample ={
+        { "../tmpfiles/6/nbrEntier.pdf", "1.3.json"  },
+        { "../ressources/1.2" }
+   };
 
     @POST
     @Path("/gc")
     public Response getMsg(String id)
     {
         List<String[]> rep = Connect.getCours_to_Database(id);
+        System.out.println("length : " + rep.size());
+
         for (String[] a: rep)
         {
-            for (String c : a)
-            {
-                System.out.println("mat in pls : " + a);
-            }
+            System.out.println("mat in pls : " + a[0]);
+            System.out.println("mat in pls1 : " + a[1]);
         }
+        System.out.println("Working Directory = " +
+                System.getProperty("user.dir"));
         return Response.status(200).entity(rep).build();
     }
 }

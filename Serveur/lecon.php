@@ -47,8 +47,10 @@
             <div class="inner">
                 <?php
                 $url="http://localhost:8080/CoursWS/rest/cours/gc/";
+                session_start();
 
-                $data = array('id' => '1');
+                $id = $_SESSION['IdUser'];
+                $data = array('id' => $id);
                 //$data = array('id' => $_SESSION["ID"]);
 
                 // use key 'http' even if you send the request to https://...
