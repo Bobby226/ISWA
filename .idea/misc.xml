@@ -16,7 +16,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Auth/pom.xml" />
         <option value="$PROJECT_DIR$/ConnectionProfil_WS/pom.xml" />
+        <option value="$PROJECT_DIR$/SongAnalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/SongSended/pom.xml" />
         <option value="$PROJECT_DIR$/WStest/pom.xml" />
       </set>
     </option>

@@ -1,7 +1,7 @@
 function getMessages()
 {
   const requeteAjax = new XMLHttpRequest();
-  requeteAjax.open("GET", "../chat/handler.php");
+  requeteAjax.open("GET", "../handler.php");
 
     requeteAjax.onload = function()
     {

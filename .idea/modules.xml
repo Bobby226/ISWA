@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Auth/Auth.iml" filepath="$PROJECT_DIR$/Auth/Auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConnectionAndProfil_WS/ConnectionAndProfil_WS.iml" filepath="$PROJECT_DIR$/ConnectionAndProfil_WS/ConnectionAndProfil_WS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cours_WS/Cours_WS.iml" filepath="$PROJECT_DIR$/Cours_WS/Cours_WS.iml" />
       <module fileurl="file://$PROJECT_DIR$/DBCommand/DBCommand.iml" filepath="$PROJECT_DIR$/DBCommand/DBCommand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FTPServ/FTPServ.iml" filepath="$PROJECT_DIR$/FTPServ/FTPServ.iml" />
       <module fileurl="file://$PROJECT_DIR$/ISWA.iml" filepath="$PROJECT_DIR$/ISWA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Serveur/Serveur.iml" filepath="$PROJECT_DIR$/Serveur/Serveur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SongAnalysis/SongAnalysis.iml" filepath="$PROJECT_DIR$/SongAnalysis/SongAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SongSended/SongSended.iml" filepath="$PROJECT_DIR$/SongSended/SongSended.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestAllThingsHere/TestAllThingsHere.iml" filepath="$PROJECT_DIR$/TestAllThingsHere/TestAllThingsHere.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_WS/Test_WS.iml" filepath="$PROJECT_DIR$/Test_WS/Test_WS.iml" />
       <module fileurl="file://$PROJECT_DIR$/UploadDownload_WS/UploadDownload_WS.iml" filepath="$PROJECT_DIR$/UploadDownload_WS/UploadDownload_WS.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserInf/UserInf.iml" filepath="$PROJECT_DIR$/UserInf/UserInf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deqszzd/deqszzd.iml" filepath="$PROJECT_DIR$/deqszzd/deqszzd.iml" />
       <module fileurl="file://$PROJECT_DIR$/tamer/tamer.iml" filepath="$PROJECT_DIR$/tamer/tamer.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>

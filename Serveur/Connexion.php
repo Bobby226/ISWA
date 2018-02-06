@@ -46,7 +46,7 @@ else
 {
     session_start();
 	$_SESSION["IdUser"]=$value;
-	header('Location: http://tamer:4242/redirect.php');
+	header('Location: http://iswa:4242/redirect.php');
 	exit();
 }
 ?>

@@ -11,7 +11,6 @@ function Redirect($url, $permanent = false)
 
     exit();
 }
-
 file_put_contents("generate_exam_enter.html", "");
 
 /*echo $_SESSION["ID"];
@@ -63,7 +62,22 @@ function a($op) {
     foreach ($_POST as $key => $value)
     {
         if ($key != 'OK')
+        {
+            if (!ctype_digit($value))
+            {
+                echo "
+                <script type=\"text/javascript\">
+                alert('Wrong char');
+                window.location.href = \"phptest.php\";
+                </script>
+                ";
+                return;
+            }
+
+            else
                 $arr1[$key] = $value;
+
+        }
         echo($key . " was " . $value);
     }
     array_push($arr, $arr1);
@@ -73,7 +87,7 @@ function a($op) {
     $cor = new correct_survey();
     $cor->correction($post_data);
     echo 'Result : ' . $_POST['q1'];
-    Redirect('http://tamer:4242/dashboard.html', false);
+    Redirect('http://iswa:4242/dashboard.html', false);
 }
 
 ?>

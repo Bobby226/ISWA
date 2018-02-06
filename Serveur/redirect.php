@@ -38,9 +38,10 @@ if ($result === FALSE)
     return;
 }
 
+echo $result;
 if ($result == "f")
-    Redirect('http://tamer:4242/src/main/php/phptest.php', false);
+    Redirect('http://iswa:4242/src/main/php/phptest.php', false);
 else
-    Redirect('http://tamer:4242/dashboard.html', false);
+    Redirect('http://iswa:4242/dashboard.html', false);
 
 echo $result;

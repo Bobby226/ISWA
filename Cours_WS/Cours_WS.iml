@@ -31,7 +31,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="derbyclient-10.13.1.1" level="project" />
+    <orderEntry type="library" name="derbyclient-10.13.1.1" level="application" />
     <orderEntry type="library" name="mysql-connector-java-5.1.44-bin" level="application" />
     <orderEntry type="library" name="mysql-connector-java-5.1.44-bin (2)" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.2" level="project" />

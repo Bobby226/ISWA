@@ -13,10 +13,16 @@
         <module>Cours_WS</module>
         <module>UploadDownload_WS</module>
         <module>Test_WS</module>
+        <module>Auth</module>
         <module>DBCommand</module>
         <module>UserInf</module>
-        <module>ConnectionProfil_WS</module>
         <module>ConnectionAndProfil_WS</module>
+        <module>ConnectionAndProfil_WS</module>
+        <module>FTPServ</module>
+        <module>TestAllThingsHere</module>
+        <module>deqszzd</module>
+        <module>SongSended</module>
+        <module>SongAnalysis</module>
     </modules>
 
 
